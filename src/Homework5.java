@@ -11,8 +11,8 @@ import java.util.Scanner;
 public class Homework5 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        System.out.println("Enter number");
-//reading input from user
+        System.out.println("Enter number: ");
+
         int n=sc.nextInt();
         int fact=1,i=1;
 // looping from 1 to n

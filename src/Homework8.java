@@ -12,12 +12,12 @@ public class Homework8
     {
         String initial, rev = "";
         Scanner in = new Scanner (System.in);
-        System.out.println ("Enter the string to reverse");
-        initial = in.nextLine (); //take input of string
+        System.out.println ("Enter the string to write backwards: " + "");
+        initial = in.nextLine ();
         int length = initial.length ();
-        for (int i = length - 1; i >= 0; i--) //logic
+        for (int i = length - 1; i >= 0; i--)
             rev = rev + initial.charAt (i);
-        System.out.println ("Reversed string: " + rev); //print Reversed string
-        System.out.println(initial.equals(rev)); //return true if string and its reverse is equal.
-    }
+        System.out.println ("Reversed string: " + rev);
+        System.out.println(initial.equals(rev));
+}
 }
