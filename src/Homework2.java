@@ -1,5 +1,5 @@
 /*
- * @Class: StudentGrades
+ * @Class: Homework2
  * @author: Anjola Akinbulumo
  * @Course: ITEC 2140-04, Spring 2023
  * @written: Febuary 26, 2023
@@ -12,7 +12,7 @@
 import java.util.Scanner;
 
 
-public class StudentGrades
+public class Homework2
 {
     public static void main(String[]args)
     {

@@ -1,5 +1,5 @@
 /*
-* @Class: PrimeNumber
+* @Class: Homework1
 * @author: Anjola Akinbulumo
 * @Course: ITEC 2140-04, Spring 2023
 * @written: Febuary 26, 2023
@@ -9,7 +9,7 @@ an integer and displays if the provided integer is a prime
 * only by 1 and itself. First few prime numbers are 2,3,5,7,11,13 and so on. Sample run is shown below
 */
 import java.util.Scanner;
-public class PrimeNumber {
+public class Homework1 {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
         System.out.print("Enter an integer: ");
